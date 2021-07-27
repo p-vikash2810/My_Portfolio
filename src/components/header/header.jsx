@@ -4,11 +4,11 @@ import { NavLink, Link } from "react-router-dom";
 import { greeting } from "../../portfolio.js";
 
 import "./header.css";
-import SeoHeader from "../seoHeader/SeoHeader.js";
+// import SeoHeader from "../seoHeader/SeoHeader.js";
 
 const Header = ({ theme }) => {
     console.log(theme);
-  const link = "home";
+  const link = "/";
   const onMouseEnter = (event, color) => {
     const el = event.target;
     el.style.backgroundColor = color;
@@ -38,7 +38,7 @@ const Header = ({ theme }) => {
           <ul className="menu" style={{ backgroundColor: theme.body }}>
             <li>
               <NavLink
-                to="/home"
+                to="/"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}

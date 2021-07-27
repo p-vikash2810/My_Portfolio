@@ -17,7 +17,7 @@ const IconWrapper = styled.span`
 const SocialMedia = (props) => {
   return (
     <div className="social-media-div">
-      {socialMediaLinks.map((media) => {
+      {socialMediaLinks.map((media, index) => {
         return (
           <a
             href={media.link}

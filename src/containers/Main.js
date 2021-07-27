@@ -1,17 +1,27 @@
 import React from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
+import Header from "../components/header/header";
+import EducationComponent from "../pages/education/EducationComponent";
 
 const Main = ({ theme }) => {
   console.log(theme);
   return (
     <div>
       <HashRouter basename="/">
+        <Header theme={theme} />
+
         <Switch>
           <Route
             path="/"
             exact
             render={(props) => <Home {...props} theme={theme} />}
+          />
+
+          <Route
+            path="/education"
+            exact
+            render={(props) => <EducationComponent {...props} theme={theme} />}
           />
         </Switch>
       </HashRouter>

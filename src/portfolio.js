@@ -20,15 +20,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/p-vikash2810",
@@ -73,4 +64,135 @@ const socialMediaLinks = [
   },
 ];
 
-export { greeting, seo, socialMediaLinks };
+const degrees = {
+  degrees: [
+    {
+      title: "Institute of Information & Technology, Gwalior",
+      subtitle: "B.Tech. in Computer Engineering",
+      logo_path: "itmu_logo.png",
+      alt_name: "ITMU Gwalior",
+      duration: "2016 - 2020",
+      descriptions: [
+        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+      ],
+      website_link: "http://itmuniversity.ac.in/",
+    },
+  ],
+};
+
+const certifications = {
+  certifications: [
+    {
+      title: "MERN Bootcamp",
+      subtitle: "- Hitesh Choudhary",
+      logo_path: "lco_logo.png",
+      certificate_link:
+        "https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/50332/3536377_50332.pdf?1617907530",
+      alt_name: "Learn Code Online",
+      color_code: "#8C151599",
+    },
+    {
+      title: "JavaScript Algorithms and Data Structures",
+      subtitle: "- Quincy Larson",
+      logo_path: "freeCodeCamp_logo.svg",
+      certificate_link:
+        "https://www.freecodecamp.org/certification/fcc2178e69e-39ab-4c77-83d4-7fd9599d4901/javascript-algorithms-and-data-structures",
+      alt_name: "Free Code Camp",
+      color_code: "#00000099",
+    },
+    {
+      title: "Front End Libraries",
+      subtitle: "- Quincy Larson",
+      logo_path: "freeCodeCamp_logo.svg",
+      certificate_link:
+        "https://www.freecodecamp.org/certification/fcc2178e69e-39ab-4c77-83d4-7fd9599d4901/front-end-libraries",
+      alt_name: "freeCodeCamp.org",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Responsive Web Design",
+      subtitle: "- Quincy Larson",
+      logo_path: "freeCodeCamp_logo.svg",
+      certificate_link:
+        "https://www.freecodecamp.org/certification/fcc2178e69e-39ab-4c77-83d4-7fd9599d4901/responsive-web-design",
+      alt_name: "freeCodeCamp.org",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "Modern Javascript",
+      subtitle: "- EdYoda Digital University, Qaifi Khan",
+      logo_path: "udemy_icon.svg",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-274f04a9-1ce5-4b0f-930f-00043151e559/",
+      alt_name: "Udemy",
+      color_code: "#D83B0199",
+    },
+    {
+      title: "Complete Responsive Web Development",
+      subtitle: "- Udemy",
+      logo_path: "udemy_icon.svg",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-02b129db-2a15-46d8-aae1-6468088df7ac/",
+      alt_name: "Creative Online School",
+      color_code: "#1F70C199",
+    },
+    // {
+    //   title: "Advanced ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "DL on Tensorflow",
+    //   subtitle: "- Laurence Moroney",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "Fullstack Development",
+    //   subtitle: "- Jogesh Muppala",
+    //   logo_path: "coursera_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+    //   alt_name: "Coursera",
+    //   color_code: "#2A73CC",
+    // },
+    // {
+    //   title: "Kuberenetes on GCP",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Cryptography",
+    //   subtitle: "- Saurabh Mukhopadhyay",
+    //   logo_path: "nptel_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+    //   alt_name: "NPTEL",
+    //   color_code: "#FFBB0099",
+    // },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
+  ],
+};
+
+export { greeting, seo, socialMediaLinks, degrees, certifications };
