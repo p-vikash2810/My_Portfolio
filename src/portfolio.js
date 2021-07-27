@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink: "",
-  portfolio_repository: "",
+  portfolio_repository: "https://github.com/p-vikash2810/My_Portfolio",
 };
 
 const socialMediaLinks = [
@@ -195,4 +195,18 @@ const certifications = {
   ],
 };
 
-export { greeting, seo, socialMediaLinks, degrees, certifications };
+const projectsHeader = {
+  title: "Projects",
+  description:
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create React web app projects and deploy them to web applications using cloud infrastructure.",
+  avatar_image_path: "projects_image.svg",
+};
+
+export {
+  greeting,
+  seo,
+  socialMediaLinks,
+  degrees,
+  certifications,
+  projectsHeader,
+};
