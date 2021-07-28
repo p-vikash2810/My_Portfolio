@@ -4,6 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Header from "../components/header/header";
 import EducationComponent from "../pages/education/EducationComponent";
 import Projects from "../pages/projects/Projects";
+import Contact from "../pages/contact/ContactComponent";
 
 const Main = ({ theme }) => {
   console.log(theme);
@@ -28,6 +29,11 @@ const Main = ({ theme }) => {
           <Route
             path="/projects"
             render={(props) => <Projects {...props} theme={theme} />}
+          />
+
+          <Route
+            path="/contact"
+            render={(props) => <Contact {...props} theme={theme} />}
           />
         </Switch>
       </HashRouter>

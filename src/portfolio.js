@@ -1,21 +1,21 @@
-const seo = {
-  title: "Vikash's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  og: {
-    title: "Vikash Patel Portfolio",
-    type: "website",
-    url: "",
-  },
-};
+// const seo = {
+//   title: "Vikash's Portfolio",
+//   description:
+//     "A passionate individual who always thrives to work on both client side and server side web application which develop sustainable and scalable social and technical systems to create impact.",
+//   og: {
+//     title: "Vikash Patel Portfolio",
+//     type: "website",
+//     url: "",
+//   },
+// };
 
 const greeting = {
   title: "Vikash Patel",
   logo_name: "VikashPatel",
   nickname: "Full-Stack Developer",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink: "",
+    "A passionate individual who always thrives to work on both client side and server of application to develop sustainable and scalable fully functional PWA.",
+  resumeLink: "https://drive.google.com/file/d/1SWnkIiGbaS4kPXZP-34QlsPEXSnZp3TT/view?usp=sharing",
   portfolio_repository: "https://github.com/p-vikash2810/My_Portfolio",
 };
 
@@ -202,11 +202,38 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
+const contactPageData = {
+  contactSection: {
+    title: "Contact Me",
+    profile_image_path: "animated_ashutosh.png",
+    description:
+      "I am available on almost every social media. You can message me, I will reply within 24 hours.",
+  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+  //   link: "https://ashutoshhathidara.wordpress.com",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
+  addressSection: {
+    title: "Address",
+    subtitle: "9A, Baba Colony, Burari, North-Delhi, Delhi - 110084",
+    avatar_image_path: "address_image.svg",
+    location_map_link:
+      "https://www.google.com/maps/place/28°45'09.8%22N+77°12'16.0%22E/@28.7526618,77.2038883,18z/data=!4m5!3m4!1s0x0:0x0!8m2!3d28.7527301!4d77.2044487",
+  },
+  phoneSection: {
+    title: "Phone Number",
+    subtitle: "+91 7987736103",
+  },
+};
+
 export {
   greeting,
-  seo,
   socialMediaLinks,
   degrees,
   certifications,
   projectsHeader,
+  contactPageData,
 };
