@@ -20,6 +20,7 @@ const SocialMedia = (props) => {
       {socialMediaLinks.map((media, index) => {
         return (
           <a
+            key={index}
             href={media.link}
             className={`icon-button`}
             target="_blank"

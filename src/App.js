@@ -1,20 +1,25 @@
-import { ThemeProvider } from "styled-components";
 import "./App.css";
-import { chosenTheme } from "./theme";
-import { GlobalStyle } from "./globalStyle";
 import Main from "./containers/Main";
+import { setCurrentTheme } from "./redux/theme/theme.action";
+import { connect } from "react-redux";
+import { useEffect } from "react";
 
-function App() {
+function App({ currentTheme }) {
+  useEffect(() => {
+    currentTheme("brownTheme");
+  }, [currentTheme]);
+
   return (
-    <ThemeProvider theme={chosenTheme}>
-      <>
-        <GlobalStyle />
-        <div>
-          <Main theme={chosenTheme} />
-        </div>
-      </>
-    </ThemeProvider>
+    <>
+      <div>
+        <Main />
+      </div>
+    </>
   );
 }
 
-export default App;
+const mapDispatchToProps = (dispatch) => ({
+  currentTheme: (theme) => dispatch(setCurrentTheme(theme)),
+});
+
+export default connect(null, mapDispatchToProps)(App);

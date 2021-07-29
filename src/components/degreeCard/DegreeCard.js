@@ -3,7 +3,6 @@ import "./degreeCard.css";
 import { Fade, Flip } from "react-reveal";
 
 const DegreeCard = ({ degree, theme }) => {
-  console.log(`'../../assests/images/${degree.logo_path}'`);
   return (
     <div className="degree-card">
       <Flip left duration={2000}>

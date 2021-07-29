@@ -3,7 +3,6 @@ import "./certificationCard.css";
 import { Fade } from "react-reveal";
 
 const CertificationCard = ({ certificate, theme }) => {
-  console.log(certificate);
   return (
     <Fade bottom duration={2000} distance="20px">
       <div className="cert-card">

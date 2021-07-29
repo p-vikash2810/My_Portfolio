@@ -8,7 +8,6 @@ import { greeting, contactPageData } from "../../portfolio.js";
 import ContactMeImg from "./ContactMeImg";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
 

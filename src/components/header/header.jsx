@@ -7,7 +7,6 @@ import "./header.css";
 // import SeoHeader from "../seoHeader/SeoHeader.js";
 
 const Header = ({ theme }) => {
-    console.log(theme);
   const link = "/";
   const onMouseEnter = (event, color) => {
     const el = event.target;
