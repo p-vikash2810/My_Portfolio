@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6685461.chunk.css",
+    "main.js": "/static/js/main.f7f133c1.chunk.js",
+    "main.js.map": "/static/js/main.f7f133c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc73a035.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc73a035.js.map",
+    "static/js/2.004ab8cb.chunk.js": "/static/js/2.004ab8cb.chunk.js",
+    "static/js/2.004ab8cb.chunk.js.map": "/static/js/2.004ab8cb.chunk.js.map",
+    "static/js/3.4a7cfe3c.chunk.js": "/static/js/3.4a7cfe3c.chunk.js",
+    "static/js/3.4a7cfe3c.chunk.js.map": "/static/js/3.4a7cfe3c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a6685461.chunk.css.map": "/static/css/main.a6685461.chunk.css.map",
+    "static/js/2.004ab8cb.chunk.js.LICENSE.txt": "/static/js/2.004ab8cb.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/css3-brands.svg": "/static/media/css3-brands.3ec32022.svg",
+    "static/media/expressjs-icon.svg": "/static/media/expressjs-icon.632d3c32.svg",
+    "static/media/freeCodeCamp_logo.svg": "/static/media/freeCodeCamp_logo.d0af8d88.svg",
+    "static/media/html5-brands.svg": "/static/media/html5-brands.b0df681d.svg",
+    "static/media/js_logo.svg": "/static/media/js_logo.081325c6.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.3beac5ba.svg",
+    "static/media/node-js-brands.svg": "/static/media/node-js-brands.cccdafa9.svg",
+    "static/media/react-brands.svg": "/static/media/react-brands.cad3ac6b.svg",
+    "static/media/sass-brands.svg": "/static/media/sass-brands.200b81e9.svg",
+    "static/media/udemy_icon.svg": "/static/media/udemy_icon.5afcaa3b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc73a035.js",
+    "static/js/2.004ab8cb.chunk.js",
+    "static/css/main.a6685461.chunk.css",
+    "static/js/main.f7f133c1.chunk.js"
+  ]
+}
