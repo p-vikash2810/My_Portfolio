@@ -3,7 +3,6 @@ import "./projectLanguages.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 const ProjectLanguages = ({ logos }) => {
-  console.log(logos);
   return (
     <div>
       <div className="software-skills-main-div">

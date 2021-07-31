@@ -11,6 +11,7 @@ const Header = ({ theme }) => {
   const onMouseEnter = (event, color) => {
     const el = event.target;
     el.style.backgroundColor = color;
+    el.style.borderRadius = "10px";
   };
 
   const onMouseOut = (event) => {
@@ -20,10 +21,10 @@ const Header = ({ theme }) => {
 
   return (
     <Fade top duration={1000} distance="20px">
-        {/* <SeoHeader /> */}
+      {/* <SeoHeader /> */}
       <div>
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
+          <NavLink to={link} replace tag={Link} className="logo">
             <span style={{ color: theme.text }}> &lt;</span>
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
@@ -38,6 +39,7 @@ const Header = ({ theme }) => {
             <li>
               <NavLink
                 to="/"
+                replace
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
@@ -50,6 +52,7 @@ const Header = ({ theme }) => {
             <li>
               <NavLink
                 to="/education"
+                replace
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
@@ -74,6 +77,7 @@ const Header = ({ theme }) => {
             <li>
               <NavLink
                 to="/projects"
+                replace
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
@@ -98,6 +102,7 @@ const Header = ({ theme }) => {
             <li>
               <NavLink
                 to="/contact"
+                replace
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
