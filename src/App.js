@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 function App({ currentTheme }) {
   useEffect(() => {
-    currentTheme("brownTheme");
+    currentTheme("blueTheme");
   }, [currentTheme]);
 
   return (

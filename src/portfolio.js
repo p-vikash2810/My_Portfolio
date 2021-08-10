@@ -1,21 +1,11 @@
-// const seo = {
-//   title: "Vikash's Portfolio",
-//   description:
-//     "A passionate individual who always thrives to work on both client side and server side web application which develop sustainable and scalable social and technical systems to create impact.",
-//   og: {
-//     title: "Vikash Patel Portfolio",
-//     type: "website",
-//     url: "",
-//   },
-// };
-
 const greeting = {
   title: "Vikash Patel",
   logo_name: "VikashPatel",
   nickname: "Full-Stack Developer",
   subTitle:
     "A passionate individual who always thrives to work on both client side and server of application to develop sustainable and scalable fully functional PWA.",
-  resumeLink: "https://drive.google.com/file/d/1SWnkIiGbaS4kPXZP-34QlsPEXSnZp3TT/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/16GSnIOBcwLrEUjBDxboecOG8hXoR03Vl/view?usp=sharing",
   portfolio_repository: "https://github.com/p-vikash2810/My_Portfolio",
 };
 
@@ -32,24 +22,14 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
+
   {
     name: "Gmail",
     link: "mailto:uniquevikashpatel@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  // {
-  //   name: "Twitter",
-  //   link: "https://twitter.com/ashutosh_1919",
-  //   fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-  //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  // },
+
   {
     name: "Facebook",
     link: "https://www.facebook.com/vikash.patel.37454/",
@@ -138,60 +118,6 @@ const certifications = {
       alt_name: "Creative Online School",
       color_code: "#1F70C199",
     },
-    // {
-    //   title: "Advanced ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "Fullstack Development",
-    //   subtitle: "- Jogesh Muppala",
-    //   logo_path: "coursera_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-    //   alt_name: "Coursera",
-    //   color_code: "#2A73CC",
-    // },
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
   ],
 };
 
@@ -205,17 +131,10 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
-  // blogSection: {
-  //   title: "Blogs",
-  //   subtitle:
-  //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-  //   link: "https://ashutoshhathidara.wordpress.com",
-  //   avatar_image_path: "blogs_image.svg",
-  // },
+
   addressSection: {
     title: "Address",
     subtitle: "9A, Baba Colony, Burari, North-Delhi, Delhi - 110084",
