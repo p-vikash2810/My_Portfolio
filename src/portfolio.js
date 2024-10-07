@@ -5,7 +5,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on both client side and server of application to develop sustainable and scalable fully functional PWA.",
   resumeLink:
-    "https://drive.google.com/file/d/16GSnIOBcwLrEUjBDxboecOG8hXoR03Vl/view?usp=sharing",
+    "https://drive.google.com/file/d/1PFJ4POpwdPV8n1HM5Fw3vP9Wqa-Tro2n/view?usp=sharing",
   portfolio_repository: "https://github.com/p-vikash2810/My_Portfolio",
 };
 
